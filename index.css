@@ -1,0 +1,762 @@
+*{
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+}
+html{
+	scroll-behavior: smooth;
+}
+body{
+	font-family: 'poppins', sans-serif ;
+	overflow-x: hidden;
+}
+
+/*==========--> HEADER START<--=========*/
+/*.lo h1{
+margin: 20px;
+font-size: 30px;
+text-transform: uppercase;
+font-weight: 600;
+}
+.lo iframe{
+	border-radius: 10px;
+}
+header{
+	position: fixed;
+	width: 100%;
+	z-index: 10;
+	width: 100%;
+
+	top: 0;
+	background:rgba(0, 0, 0, .80);
+	padding:1% ;
+	-webkit-transition: all ease-out 2s;
+	-moz-transition: all ease-out 2s;
+	-o-transition: all ease-out 2s;
+	transition: all ease-out 2s;
+}
+
+.active{
+	background-color:  #262221;
+	box-shadow: 0 3px 3px gray }
+
+nav{
+	display: flex;
+	justify-content: space-between;
+	padding: ;
+}
+.nah {
+	padding: 10px 20px;
+	border-radius:;
+	background:;
+	position: relative;
+	z-index: 10;
+}
+#logo h1{
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: ;
+	color: lightgray;
+}
+#navi{
+	margin-top: 0;
+}
+
+#navi ul{
+	display: flex;
+	justify-content: center;
+	margin: 0;
+}
+
+#navi ul li{
+	list-style: none;
+}
+
+#navi ul li a{
+	text-decoration: none;
+	font-size:;
+	margin: 0 10px;
+	color: lightgray;
+	font-weight: 500;
+}
+#cancel{
+	display: none;
+}
+.icons{
+	display: none;
+}
+
+.icons i{
+	font-size: 50px;
+	font-weight: ;
+	
+}
+*/
+header{
+	position: fixed;
+	width: 100%;
+	z-index: 10;
+	width: 100%;
+
+	top: 0;
+	background:rgba(0, 0, 0, .80);
+	padding:;
+	-webkit-transition: all ease-out 2s;
+	-moz-transition: all ease-out 2s;
+	-o-transition: all ease-out 2s;
+	transition: all ease-out 2s;
+}
+
+
+.logo a{
+	text-decoration: none;
+	color: white;
+	font-size: 30px;
+	font-weight: 700;
+	text-transform: uppercase;
+	position: relative;
+	z-index: 2;
+
+}
+
+#navvv{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 20px 10px;
+
+
+}
+
+.ul{
+	display: flex;
+	align-items: center;
+}
+
+.ul li{
+	list-style: none;
+}
+.ul li a{
+	text-decoration: none;
+	color: lightgray;
+	font-size: 20px;
+	margin: 0 8px;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+
+
+
+.bars{
+	display: none;
+}
+
+
+
+/*==========--> HEADER END <--=========*/
+
+#myBtn{
+	position: fixed;
+	left: 20px;
+	z-index: 100;
+	font-weight: 700;
+	bottom: 30px;
+	padding: 5px;
+	font-size: 30px;
+	background: black;
+	color: white;
+	border-radius: 10px;
+	display:none ;
+	border: none;
+  outline: none;
+}
+#myBtn:hover{
+	color: black;
+	background: white;
+	transition: 1s;
+	border: 1px solid black;
+}
+
+/*==========-->  WELCOME NOTE START <--=========*/
+{
+	background: url(r-architecture-T6d96Qrb5MY-unsplash.jpg);
+	background-size: cover;
+	padding: 25% 5%;
+	width: 100%;
+}
+.up{
+	
+	text-align: ;
+	/*background: url(r-architecture-T6d96Qrb5MY-unsplash.jpg);
+	*/width:100% ;
+	object-fit: ;
+	background-size:cover;
+	background-position:center ;
+	background-repeat:no-repeat ;
+	top: 0;
+	right: 0;
+	padding: 12% 8%;
+	position: relative;
+	margin-bottom: 0;
+}
+.tex, .well, .bt{
+	position: relative;
+	z-index: 1;
+	font-weight: 600;
+	margin: 20px 0;
+}
+.well h1{
+	font-size: 30px;
+	width:80%;
+	text-transform: uppercase;
+
+}
+.tex p{
+	width: 80%;
+	font-size: 20px;
+}
+/*.up:after{
+	content: '';
+background:white;
+width: 100%;
+height:100%;
+background-size:cover ;
+position: absolute;
+left: 0;
+top: 0;
+opacity: 100%;
+}*/
+.house{
+	position: relative;
+	z-index: 1;
+}
+/*==========-->  WELCOME NOTE END <--=========*/
+
+
+/*==========-->  ABOUT START <--=========*/
+#about{
+	margin: 50px 0;
+	padding: 0 20px;
+}
+ #about .ab h1{
+ 	margin: 50px;
+ 	text-align:center ;
+ 	text-transform: uppercase;
+ 	font-weight: 600;
+ 	font-size: 40px;
+ }
+
+.bb p{
+	background: ;
+	font-size: 20px;
+
+
+}
+.img{
+	
+}
+/*==========-->  ABOUT END <--=========*/
+
+/*==========--> LATEST LISTING START <--=========*/
+
+/*.text{
+margin: 10px;
+font-size: 20px;
+font-weight: 500;
+}
+
+.text span{
+	font-weight: 700;
+	line-height: 70px;
+	margin: 0 6px;
+}
+.list{
+
+	margin:20px 0 ;
+}
+.list h2{
+	font-weight: 600;
+	font-size: 30px;
+}
+.list h3{
+	font-weight: 600;
+	font-size: 25px;
+}*/
+/*==========--> LATEST LISTING END <--=========*/
+
+
+/*==========--> OUR AGENCY START <--=========*/
+
+#agency{
+	background: url(images/prop.jpeg);
+	object-fit:cover ;
+	background-size: cover;
+	background-position:center ;
+	background-repeat:no-repeat ;
+	height:auto;
+	color: white;
+	padding: 10% ;
+	position: relative;
+	margin-bottom: 0;
+}
+
+#agency:after{
+	content: '';
+background:black;
+background-size: cover;
+width: 100%;
+height:100%;
+position: absolute;
+left: 0;
+top: 0;
+opacity: 50%;
+}
+#agency div{
+	position: relative;
+	z-index: 1;
+	margin: 15px 10px;
+}
+
+#agency h1{
+	font-weight: 600;
+	font-size: 30px;
+	margin: 20px;
+}
+#agency p{
+	font-size: 20px;
+	padding: 10px;
+}
+#agency button{
+	font-weight: 600;
+}
+/*==========--> OUR AGENCY END <--=========*/
+
+/*==========-->  DIRECTOR QUOTE START <--=========*/
+
+.ceo{
+	margin: 5% 0;
+}
+.di{
+	background:;
+	font-size: 20px;
+	font-weight: 600;
+}
+.di h2{
+	font-weight: 650;
+	font-size: 30px;
+}
+
+.em{
+	border-radius: 100%;
+}
+
+/*==========-->  DIRECTOR QUOTE END <--=========*/
+
+
+/*==========-->  FOOTER START <--=========*/
+footer{
+	padding: 30px;
+	color: lightgray;
+	width: 100%;
+	margin: 0;
+	margin-right: 0;
+	background-size: cover;
+}
+
+footer div{
+	margin: 30px  0;
+}
+
+.ic i{
+	font-size: 30px;
+	margin: 2px 10px;
+}
+.call a{
+	text-decoration: none;
+	color: lightgray;
+	font-size: 20px;
+}
+.design, .copy{
+	font-size: 20px;
+	color: lightgray;
+}
+.design a{
+	text-decoration: none;
+	color: lightgray;
+
+}
+
+/*==========-->  FORSALE STYLING START <--=========*/
+
+.first{
+	
+	text-align: ;
+	background: url(ralph-ravi-kayden-mR1CIDduGLc-unsplash.jpg);
+	width:;
+	object-fit:;
+	background-size:cover;
+	background-position:center ;
+	background-origin: ;
+	background-repeat:no-repeat ;
+	height: ;
+	padding: 15% 5% ;
+	position: relative;
+	margin-bottom: 0;
+}
+.first h2, .first p, .first button{
+	position: relative;
+	z-index: 1;
+	
+	font-weight: 600;
+	margin: 20px 0;
+}
+.first p{
+	width: 500px;
+	font-weight: 600;
+}
+.first h2{
+	width: 500px;
+}
+.first:after{
+	content: '';
+background:black;
+background-size:cover;
+width: 100%;
+height:100%;
+position: absolute;
+left: 0;
+top: 0;
+opacity: 50%;
+}
+.new{
+	margin: 5%;
+	box-shadow: 3px 3px 5px gray, -3px -3px 5px lightgray;
+	padding-bottom:0 ;
+	border-radius: 2px;
+	width: fit-content;
+}
+.new img{
+	margin:  0;
+	width: 100%;
+	padding: 0;
+	height: 250px;
+	/*box-shadow: inset 3px 3px 5px gray, inset -3px -3px 5px lightgray;*/
+}
+.iye{
+	color: green;
+}
+.new button{
+	width: 100%;
+	text-align: center;
+	margin-bottom:0;
+	border-radius:2px;
+	justify-content: center;
+}
+.new h3, h4, h5{
+	padding: 5px 2px;
+	font-weight: 600;
+	font-size: 100%;
+}
+.vv{
+	color: white;
+	text-decoration: none;
+}
+/*==========-->  FORSALE STYLING END <--=========*/
+
+
+/*==========-->  FULL VIEW START <--=========*/
+
+.full{
+	margin-top: 150px;
+	margin-bottom: 100px;
+}
+
+.exp .locate, .amount{
+	font-size: 25px;
+	margin: 5px 20px;
+}
+ .deski{
+ 	font-size: 20px;
+ 	margin: 5px 20px;
+ }
+ .fee h2{
+margin: 5px 20px;
+font-size: 35px;
+text-transform: uppercase;
+ }
+.fee li{
+	font-size: 20px;
+	margin: 5px  20px;
+}
+.fee a{
+	margin: 5px 30px;
+}
+/*==========--> FULL END  <--===================*/
+
+/*===========--> FOR RENT START <--=============*/
+
+.firsty{
+	
+	text-align: ;
+	background: url(imagereader10.jpeg);
+	width:;
+	object-fit:;
+	background-size:cover;
+	background-position:center ;
+	background-origin: ;
+	background-repeat:no-repeat ;
+	height: ;
+	padding: 15% 5% ;
+	position: relative;
+	margin-bottom: 0;
+}
+.firsty h2, .firsty p, .firsty button{
+	position: relative;
+	z-index: 1;
+	
+	font-weight: 600;
+	margin: 20px 0;
+}
+.firsty p{
+	width: 50%;
+	font-weight: 500;
+	font-size: 24px;
+}
+.firsty h2{
+	width: 50%;
+	font-size: 20px;
+
+}
+.firsty:after{
+	content: '';
+background:black;
+background-size: cover;
+width: 100%;
+height:100%;
+position: absolute;
+left: 0;
+top: 0;
+opacity: 55%;
+}
+
+.ffff{
+	
+	
+	}
+.ffff h1{
+	margin: 50px 10%;
+	text-align: center;
+font-size:150%;
+	font-weight: 600;
+	text-transform: uppercase;
+	box-shadow: 2px 2px 5px gray, -2px -2px 5px lightgray;
+	padding: 10px;
+	position: relative;
+	border-radius: 10px;
+
+}
+
+
+/*==========--> CONTACT STYLING START <--=========*/
+
+.contact{
+	padding: 120px 30px;
+}
+.contact img{
+	width: 100%;
+	height: 100%;
+}
+.contact a{
+	text-decoration: none;
+	color: ;
+}
+.conty h2{
+	font-size: 110%;
+	margin: 10px 0;
+	font-weight: 600;
+	text-align: ;
+}
+.conty p{
+	text-align: ;
+	font-size: 110%;
+	margin: 10px 0;
+}
+.formy input{
+	background: none;
+	border: 2px solid gray;
+	width: 100%;
+	text-align: ;
+	padding: 10px;
+	margin: 10px 0;
+	border-radius: 10px;
+}
+#message{
+	width: 100%;
+	border: 2px solid gray;
+	background: none;
+	padding: 10px;
+	margin: 10px 0;
+	border-radius: 10px;
+}
+
+
+/*==========-->  OUR TEAM STYLING <--=========*/
+
+.team{
+	padding: 80px 20px;
+
+}
+.team h1{
+	text-align: center;
+	margin-bottom:20px ;
+	text-transform: uppercase;
+	padding: 10px;
+	border-radius: 10px;
+	box-shadow:  2px 2px 3px lightgray,  -2px -2px 3px gray;
+}
+.imm{
+	
+}
+.team img{
+	border-radius: 5%;
+}
+.chu{
+	padding-top: 30px;
+}
+.chu h2{
+	font-size: 20px;
+	font-style: italic;
+	font-weight: 600;
+	margin: 15px 0;
+}
+.chu p{
+	font-size: 120%;
+	margin: 25px 0;
+}
+.chu button{
+	margin: 10px 0;
+}
+/*==========-->  RESPONSIVE STYLING <--=========*/
+
+@media(max-width: 768px){
+
+.up{
+	height: 150%;
+	padding: 27% 5%;
+
+}
+/*#cancel{
+	display: block;
+	font-size: 40px;
+	position: absolute;
+	top: 5px;
+	right: 30px;
+	color: white;
+}
+#cancel i:hover{
+	color: red;
+	transition: .5s;
+}
+#navi{
+	background: rgba(0, 0, 0, .95);
+	text-align: center;
+	width: 50%;
+	position: fixed;
+	top: 0;
+	display: none;
+	right: 0;
+	height: 100%;
+}
+	#navi ul{
+		display:block;
+		margin-top: 70px;
+	}
+	#navi ul li{
+		padding: 15px;
+
+	}
+	#navi ul li a{
+		font-size: 30px;
+		color: lightgray;
+		
+	}
+	#navi ul li a:hover{
+		font-size: 30px;
+		color: white;
+		transition: .5s;
+		transform: translateY(10px);
+		
+	}
+
+	.icons{
+		display: block;
+		margin: 0 20px;
+	}
+	#btn i{
+		font-size: 40px;
+		color: lightgray;
+	}*/
+
+.ul{
+	display: block;
+	justify-content: center;
+	position: fixed;
+	right: -500px;
+	top: 0;
+	transition: 1s;
+	width: 50%;
+	padding: 70px 20px 50px 20px;
+	height: 100%;
+	text-align: center;
+}
+
+.ul li{
+	margin: 15px 10px;
+
+}
+.ul li a{
+	font-size: 25px;
+}
+ .bars{
+	display: block;
+	position: relative;
+		z-index: 2;
+}
+.bars i{
+	font-size: 25px;
+	color: lightgray;
+	border: solid 2px white;
+	padding: 5px ;
+	border-radius: 5px;
+}
+.bars i:hover{
+	color: black;
+	background: white;
+	transition: .5s;
+}
+.bars .close{
+	display: none;
+}
+.logo a{
+	font-size: 25px;
+}
+
+
+
+
+	.first p{
+	width: 100%;
+	font-weight: 600;
+}
+.first h2{
+	width: 100%;
+}
+.first{
+	padding: 25% 5%;
+}
+}
+
+
+
+
+
