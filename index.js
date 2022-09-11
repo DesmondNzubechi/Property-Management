@@ -4,7 +4,7 @@ var mybutton = document.getElementById("myBtn");
 
 window.onscroll = function() {scrollFunction()};
 
-function scrollFunction() {
+function scrollFunction() { 
   if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
     mybutton.style.display = "block";
   } else {
@@ -16,9 +16,9 @@ function topFunction() {
   document.documentElement.scrollTop = 0;
 };
 
-let close = document.queryselector('.close');
-let open = document.queryselector('.open');
-let ul = document.queryselector('.ul');
+let close = document.querySelector('.close');
+let open = document.querySelector('.open');
+let ul = document.querySelector('.ul');
 
 
 //Display Nav Links

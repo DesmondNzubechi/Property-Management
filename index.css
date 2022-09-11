@@ -105,6 +105,7 @@ header{
 	-moz-transition: all ease-out 2s;
 	-o-transition: all ease-out 2s;
 	transition: all ease-out 2s;
+	box-shadow: 0 0 10px lightgray;
 }
 
 
@@ -179,7 +180,7 @@ header{
 
 /*==========-->  WELCOME NOTE START <--=========*/
 {
-	background: url(r-architecture-T6d96Qrb5MY-unsplash.jpg);
+	background: url(images/r-architecture-T6d96Qrb5MY-unsplash.jpg);
 	background-size: cover;
 	padding: 25% 5%;
 	width: 100%;
@@ -199,12 +200,18 @@ header{
 	position: relative;
 	margin-bottom: 0;
 }
+.wel{
+	margin: 50px 0;
+}
+.bt a{
+	margin-right: 15px;
+}
 .tex, .well, .bt{
 	position: relative;
 	z-index: 1;
-	font-weight: 600;
-	margin: 20px 0;
-}
+	font-weight: 500;
+margin: 10px 0;
+	}
 .well h1{
 	font-size: 30px;
 	width:80%;
@@ -231,12 +238,63 @@ opacity: 100%;
 	z-index: 1;
 }
 /*==========-->  WELCOME NOTE END <--=========*/
+/* OVER VIEW START */
+.over{
+	padding: 30px 20px;
+	margin: 0 !important;
+	background: #5000ca;
+}
+.over >  h1{
+	
+	margin: 20px 0;
+}
+.box{
+	position: relative;
+padding: 0 !important;
+margin: 20px 0;
 
+overflow-x: hidden;
+	border: 2px solid lightgray;
+}
+.box:hover {
+	transition: .5s;
+	transform: translateY(15px);
+}
+.box a{
+height: 250px;
+}
+.box img{
+	height: 300px !important;
+	width: 100% !important;
+}
 
+.box h1{
+	position: absolute;
+	top: 0;
+	left: 0;
+	text-align: center;
+	text-transform: uppercase;
+	padding-top: 150px ;
+	width: 100%;
+	height: 100%;
+	font-weight: bolder;
+	color: white;
+	background: rgba(0, 0, 0, .50);
+}
+
+.box h1:hover{
+	background: rgba(0, 0, 0, .20);
+	transition: 1s;
+}
 /*==========-->  ABOUT START <--=========*/
 #about{
-	margin: 50px 0;
+	margin: 80px 0;
 	padding: 0 20px;
+}
+.abtc{
+	height: 300px;
+	margin: 20px 0;
+	overflow-y: hidden;
 }
  #about .ab h1{
  	margin: 50px;
@@ -361,6 +419,7 @@ footer{
 	margin: 0;
 	margin-right: 0;
 	background-size: cover;
+	text-align: justify !important;
 }
 
 footer div{
@@ -368,13 +427,15 @@ footer div{
 }
 
 .ic i{
-	font-size: 30px;
+	font-size: 25px;
 	margin: 2px 10px;
+	color: lightgray !important;
 }
 .call a{
 	text-decoration: none;
 	color: lightgray;
 	font-size: 20px;
+	text-align: justify;
 }
 .design, .copy{
 	font-size: 20px;
@@ -383,6 +444,7 @@ footer div{
 .design a{
 	text-decoration: none;
 	color: lightgray;
+	text-align: justify !important;
 
 }
 
@@ -391,7 +453,7 @@ footer div{
 .first{
 	
 	text-align: ;
-	background: url(ralph-ravi-kayden-mR1CIDduGLc-unsplash.jpg);
+	background: url(images/ralph-ravi-kayden-mR1CIDduGLc-unsplash.jpg);
 	width:;
 	object-fit:;
 	background-size:cover;
@@ -498,7 +560,7 @@ text-transform: uppercase;
 .firsty{
 	
 	text-align: ;
-	background: url(imagereader10.jpeg);
+	background: url(images/imagereader10.jpeg);
 	width:;
 	object-fit:;
 	background-size:cover;
@@ -560,7 +622,7 @@ font-size:150%;
 /*==========--> CONTACT STYLING START <--=========*/
 
 .contact{
-	padding: 120px 30px;
+	padding: 150px 30px;
 }
 .contact img{
 	width: 100%;
@@ -604,6 +666,7 @@ font-size:150%;
 
 .team{
 	padding: 80px 20px;
+	margin-top: 50px;
 
 }
 .team h1{
@@ -611,14 +674,19 @@ font-size:150%;
 	margin-bottom:20px ;
 	text-transform: uppercase;
 	padding: 10px;
+	font-weight: bolder;
 	border-radius: 10px;
-	box-shadow:  2px 2px 3px lightgray,  -2px -2px 3px gray;
-}
+	/*box-shadow:  2px 2px 3px lightgray,  -2px -2px 3px gray;
+*/}
 .imm{
-	
+	padding: 50px;
+	width: 400px;
+	height: 400px;
+	margin-top: 50px;
 }
 .team img{
 	border-radius: 5%;
+
 }
 .chu{
 	padding-top: 30px;
